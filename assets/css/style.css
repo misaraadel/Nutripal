@@ -1353,6 +1353,15 @@ header .head-content .flex-content .content .state.lang {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: calc(100% - 60px);
 }
 
 .products .cart-contain .product-list .product-row .data-contain .number, .products .cart-contain .product-list .product-row .data-contain .type {
@@ -1372,7 +1381,9 @@ header .head-content .flex-content .content .state.lang {
   content: '\f00d';
   position: absolute;
   left: -10px;
-  top: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   color: rgba(0, 0, 0, 0.2);
   font-size: 20px;
   display: inline-block;
