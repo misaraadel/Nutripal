@@ -1353,9 +1353,9 @@ header .head-content .flex-content .content .state.lang {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1743,7 +1743,10 @@ header .head-content .flex-content .content .state.lang {
 }
 
 .error {
+  width: 100%;
   margin: 10px 0px !important;
+  color: #f00;
+  display: block;
 }
 
 .bottom-nav {
@@ -2137,7 +2140,7 @@ header .head-content .flex-content .content .state.lang {
   .head-content {
     margin: auto;
     border-radius: 0px 0px 212px 212px !important;
-    padding: 33px 0px !important;
+    padding: 20px 0px !important;
   }
   .head-content .flex-content {
     -webkit-box-orient: vertical;
@@ -2147,6 +2150,7 @@ header .head-content .flex-content .content .state.lang {
   }
   .head-content .flex-content .logo {
     margin: 0px !important;
+    height: 150px !important;
   }
   .head-content .flex-content span {
     margin: auto;

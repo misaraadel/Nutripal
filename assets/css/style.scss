@@ -405,7 +405,7 @@ header{
 
                 .data-contain{
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     align-content: center;
                     width: calc(100% - 60px);
@@ -722,7 +722,10 @@ header{
 }
 
 .error{
+    width: 100%;
     margin: 10px 0px !important;
+    color: #f00;
+    display: block;
 }
 
 .bottom-nav{
