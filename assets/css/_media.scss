@@ -1,0 +1,48 @@
+@media (max-width: 1116px) {
+    .head-content{
+        width: 70% !important;
+    }   
+}
+
+@media (max-width: 999px) {
+    .head-content{
+        margin: auto;
+        border-radius: 0px 0px 212px 212px !important;
+        padding: 33px 0px !important;
+        
+        .flex-content{
+        flex-direction: column;
+
+        .logo{
+            margin: 0px !important;
+        }
+
+        span{
+            margin: auto;
+        }
+        }
+    }
+
+    .products .navbar-nav .nav-item .nav-link{
+        min-width: 140px !important;
+        text-align: center;
+    }
+
+    .bottom-nav{
+        display: block !important;
+    }
+
+    .mobile-state{
+        flex-direction: column;
+
+        .state {
+            margin: 10px 0px !important;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .head-content {
+        width: 90% !important;
+    }
+}
