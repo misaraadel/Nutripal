@@ -2114,7 +2114,7 @@ header .head-content .flex-content .content .state.lang {
   .head-content .flex-content span {
     margin: auto;
   }
-  .head-content .flex-content .content p {
+  .head-content .flex-content .content h4, .head-content .flex-content .content p {
     margin: auto;
   }
   .products .navbar-nav .nav-item .nav-link {
