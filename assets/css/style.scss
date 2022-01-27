@@ -43,6 +43,10 @@ html[dir="rtl"]{
         right: -5px !important;
     }
 
+    .products .cart-contain .product-list .product-row .data-contain .type::after{
+        left: unset !important;
+        right: -10px !important;
+    }
     
 }
 

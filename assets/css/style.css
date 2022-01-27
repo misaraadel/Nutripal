@@ -899,6 +899,11 @@ html[dir="rtl"] .bottom-nav .content .data .price::after {
   right: -5px !important;
 }
 
+html[dir="rtl"] .products .cart-contain .product-list .product-row .data-contain .type::after {
+  left: unset !important;
+  right: -10px !important;
+}
+
 @font-face {
   html[dir='ltr'] {
     font-family: "Poppins";
@@ -2107,6 +2112,9 @@ header .head-content .flex-content .content .state.lang {
     margin: 0px !important;
   }
   .head-content .flex-content span {
+    margin: auto;
+  }
+  .head-content .flex-content .content p {
     margin: auto;
   }
   .products .navbar-nav .nav-item .nav-link {

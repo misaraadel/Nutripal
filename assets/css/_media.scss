@@ -13,13 +13,17 @@
         .flex-content{
         flex-direction: column;
 
-        .logo{
-            margin: 0px !important;
-        }
+            .logo{
+                margin: 0px !important;
+            }
 
-        span{
-            margin: auto;
-        }
+            span{
+                margin: auto;
+            }
+
+            .content p{
+                margin: auto;
+            }
         }
     }
 
