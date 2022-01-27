@@ -47,6 +47,29 @@ html[dir="rtl"]{
         left: unset !important;
         right: -10px !important;
     }
+
+    
+    .products .heading{
+        text-align: right !important;
+    }
+
+    .products .product-box .content{
+        text-align: right !important;
+    }
+
+    header .head-content .flex-content .content p{
+        text-align: right;
+        direction: rtl;
+    }
+
+    .products .form-group .form-control{
+        direction: rtl;
+    }
+
+    .products .form-group .label-contain{
+        text-align: right;
+        width: 100%;
+    }
     
 }
 
@@ -691,6 +714,10 @@ header{
             --s-b: 6px;
         }
     }
+}
+
+.error{
+    margin: 10px 0px !important;
 }
 
 .bottom-nav{

@@ -904,6 +904,28 @@ html[dir="rtl"] .products .cart-contain .product-list .product-row .data-contain
   right: -10px !important;
 }
 
+html[dir="rtl"] .products .heading {
+  text-align: right !important;
+}
+
+html[dir="rtl"] .products .product-box .content {
+  text-align: right !important;
+}
+
+html[dir="rtl"] header .head-content .flex-content .content p {
+  text-align: right;
+  direction: rtl;
+}
+
+html[dir="rtl"] .products .form-group .form-control {
+  direction: rtl;
+}
+
+html[dir="rtl"] .products .form-group .label-contain {
+  text-align: right;
+  width: 100%;
+}
+
 @font-face {
   html[dir='ltr'] {
     font-family: "Poppins";
@@ -1709,6 +1731,10 @@ header .head-content .flex-content .content .state.lang {
   --s-b: 6px;
 }
 
+.error {
+  margin: 10px 0px !important;
+}
+
 .bottom-nav {
   width: 100%;
   padding: 15px 0px;
@@ -2115,7 +2141,9 @@ header .head-content .flex-content .content .state.lang {
     margin: auto;
   }
   .head-content .flex-content .content h4, .head-content .flex-content .content p {
-    margin: auto;
+    margin: 0px 0px 10px 0px !important;
+    text-align: center !important;
+    width: 100% !important;
   }
   .products .navbar-nav .nav-item .nav-link {
     min-width: 140px !important;
