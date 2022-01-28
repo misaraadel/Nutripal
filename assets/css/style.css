@@ -2160,6 +2160,15 @@ header .head-content .flex-content .content .state.lang {
     text-align: center !important;
     width: 100% !important;
   }
+  .products {
+    padding: 10px 0px;
+  }
+  .products .navbar-nav {
+    padding: 0px !important;
+  }
+  .heading {
+    margin: 0px 0px 10px 0px !important;
+  }
   .products .navbar-nav .nav-item .nav-link {
     min-width: 140px !important;
     text-align: center;

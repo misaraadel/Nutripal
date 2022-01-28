@@ -10,6 +10,7 @@
         border-radius: 0px 0px 212px 212px !important;
         padding: 20px 0px !important;
         
+        
         .flex-content{
         flex-direction: column;
 
@@ -30,6 +31,18 @@
                 }
             }
         }
+    }
+
+    .products{
+        padding: 10px 0px;
+
+        .navbar-nav{
+            padding: 0px !important;
+        }
+    }
+
+    .heading{
+        margin: 0px 0px 10px 0px !important;
     }
 
     .products .navbar-nav .nav-item .nav-link{
