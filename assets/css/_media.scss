@@ -61,6 +61,17 @@
             margin: 10px 0px !important;
         }
     }
+
+    .modal-body.prodcut-modal{
+        flex-direction: column;
+        .content{
+            width: 100% !important; 
+        }
+    }
+
+    .products .general-card {
+        padding: 22px 20px 91px 20px !important;
+    }
 }
 
 @media (max-width: 425px) {

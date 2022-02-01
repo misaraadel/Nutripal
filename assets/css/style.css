@@ -1196,6 +1196,11 @@ header .head-content .flex-content .content .state.lang {
   margin: 0px;
 }
 
+.products .product-box .content .product-title p .link {
+  color: #000;
+  font-weight: 700;
+}
+
 .products .product-box .content .price {
   color: #000;
   font-size: 16px;
@@ -2026,6 +2031,91 @@ header .head-content .flex-content .content .state.lang {
   bottom: unset !important;
 }
 
+.modal-body.prodcut-modal {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+  z-index: 99;
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+.modal-body.prodcut-modal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 1;
+  color: #f00;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.modal-body.prodcut-modal .image-content {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.modal-body.prodcut-modal .image-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.modal-body.prodcut-modal .content {
+  width: calc(100% - 160px);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-padding-start: 12px;
+          padding-inline-start: 12px;
+}
+
+.modal-body.prodcut-modal .content .product-title h4 {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.modal-body.prodcut-modal .content .product-title p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 0px;
+}
+
+.modal-body.prodcut-modal .content .product-title p .link {
+  color: #000;
+  font-weight: 700;
+}
+
 @-webkit-keyframes cart {
   41%,
   49%,
@@ -2184,6 +2274,18 @@ header .head-content .flex-content .content .state.lang {
   }
   .mobile-state .state {
     margin: 10px 0px !important;
+  }
+  .modal-body.prodcut-modal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .modal-body.prodcut-modal .content {
+    width: 100% !important;
+  }
+  .products .general-card {
+    padding: 22px 20px 91px 20px !important;
   }
 }
 
