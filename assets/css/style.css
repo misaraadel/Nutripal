@@ -2227,28 +2227,8 @@ header .head-content .flex-content .content .state.lang {
 }
 
 @media (max-width: 999px) {
-  .head-content {
-    margin: auto;
-    border-radius: 0px 0px 212px 212px !important;
-    padding: 20px 0px !important;
-  }
-  .head-content .flex-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .head-content .flex-content .logo {
-    margin: 0px !important;
-    height: 150px !important;
-  }
-  .head-content .flex-content span {
-    margin: auto;
-  }
-  .head-content .flex-content .content h4, .head-content .flex-content .content p {
-    margin: 0px 0px 10px 0px !important;
-    text-align: center !important;
-    width: 100% !important;
+  header {
+    background: none !important;
   }
   .products {
     padding: 10px 0px;
@@ -2266,15 +2246,6 @@ header .head-content .flex-content .content .state.lang {
   .bottom-nav {
     display: block !important;
   }
-  .mobile-state {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .mobile-state .state {
-    margin: 10px 0px !important;
-  }
   .modal-body.prodcut-modal {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2287,11 +2258,48 @@ header .head-content .flex-content .content .state.lang {
   .products .general-card {
     padding: 22px 20px 91px 20px !important;
   }
-}
-
-@media (max-width: 425px) {
   .head-content {
-    width: 90% !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    padding: 21px 0px !important;
+  }
+  .head-content .flex-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+  .head-content .flex-content .logo {
+    width: 150px !important;
+    margin: 0px !important;
+    height: 150px !important;
+  }
+  .head-content .flex-content span {
+    margin: auto;
+  }
+  .head-content .flex-content .content {
+    width: calc(100% - 160px) !important;
+    padding: 0px 10px !important;
+  }
+  .head-content .flex-content .content h4 {
+    font-size: 24px !important;
+    margin: 0px !important;
+  }
+  .head-content .flex-content .content p {
+    margin: 7px 0px !important;
+    font-size: 14px !important;
+  }
+  .head-content .flex-content .content .state {
+    margin-top: 0px !important;
+  }
+  .products .custom-margin {
+    margin-bottom: 55px !important;
+  }
+  .products .heading {
+    font-size: 18px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
